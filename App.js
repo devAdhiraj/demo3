@@ -23,8 +23,8 @@ class App extends Component {
       const granted = await PermissionsAndroid.request(
         permissionName,
         {
-          title: "Sms reading",
-          message: "Permssion To read SMS",
+          title: "Asking for Permission",
+          message: "Allow it",
           buttonNeutral: "Ask Me Later",
           buttonNegative: "Cancel",
           buttonPositive: "OK"
